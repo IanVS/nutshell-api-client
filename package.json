@@ -1,0 +1,16 @@
+{
+  "name": "nutshell-api-example",
+  "version": "0.0.1",
+  "description": "Simple Nutshell json-rpc API client example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nutshell",
+    "json-rpc",
+    "crm"
+  ],
+  "author": "Ian VanSchooten",
+  "license": "MIT"
+}
