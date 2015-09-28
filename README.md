@@ -9,6 +9,8 @@ npm install -g nutshell-api-client
 
 ## Usage
 
+**Note:** Requires Node.js version `4.0.0` or greater.
+
 To use the cli:
 
 ```bash
