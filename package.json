@@ -4,7 +4,7 @@
   "description": "Simple Nutshell json-rpc API client example",
   "main": "index.js",
   "scripts": {
-    "test": "tape tests/unit/*-test.js | tap-spec"
+    "test": "tape tests/{unit,integration}/*-test.js | tap-spec"
   },
   "keywords": [
     "nutshell",
