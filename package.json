@@ -1,5 +1,5 @@
 {
-  "name": "nutshell-api-example",
+  "name": "nutshell-api-client",
   "version": "0.0.1",
   "description": "Simple Nutshell json-rpc API client example",
   "main": "index.js",
@@ -17,6 +17,10 @@
     "crm"
   ],
   "author": "Ian VanSchooten",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IanVS/nutshell-api-client"
+  },
   "license": "MIT",
   "devDependencies": {
     "eslint-config-ianvs": "0.0.6",
