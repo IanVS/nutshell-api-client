@@ -4,7 +4,7 @@ Example [Nutshell](https://www.nutshell.com/) API client written in Node.js.  Th
 ## Installation
 
 ```bash
-npm install nutshell-api-client
+npm install -g nutshell-api-client
 ```
 
 ## Usage
