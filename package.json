@@ -6,6 +6,9 @@
   "scripts": {
     "test": "tape tests/{unit,integration}/*-test.js | tap-spec"
   },
+  "bin": {
+    "nutshell": "./bin/nutshell.js"
+  },
   "keywords": [
     "nutshell",
     "json-rpc",
@@ -23,6 +26,7 @@
   },
   "dependencies": {
     "async": "^1.4.2",
+    "inquirer": "^0.10.1",
     "node-uuid": "^1.4.3"
   }
 }
