@@ -27,10 +27,7 @@ exports.getFirstHundredContactsWithEmails = function (options, cb) {
         return;
       }
       if (contacts.length >= 100) {
-        let contactNames = contacts.map(function (contact) {
-          return contact.name.displayName;
-        });
-        cb(err, contactNames);
+        cb(err, contacts);
       }
     });
   });
