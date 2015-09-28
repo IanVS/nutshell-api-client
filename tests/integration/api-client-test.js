@@ -1,13 +1,13 @@
 'use strict';
 
 const test = require('tape');
-const auth = require('../../lib/auth');
+const api = require('../../lib/api-client');
 
 
 test('getEndpointForUser :: Happy path test', function (t) {
   t.plan(1);
 
-  auth.getApiEndpointForUser('jim@demo.nutshell.com', function (err, result) {
+  api.getApiEndpointForUser('jim@demo.nutshell.com', function (err, result) {
     if (err) {
       t.fail(err);
     }
