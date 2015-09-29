@@ -1,5 +1,6 @@
 # Nutshell API Client
 
+[![Build Status](https://travis-ci.org/IanVS/nutshell-api-client.svg?branch=add-travis)](https://travis-ci.org/IanVS/nutshell-api-client)
 [![Dependency Status](https://www.versioneye.com/user/projects/5609a30e5a262f001a00022a/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5609a30e5a262f001a00022a)
 
 Example [Nutshell](https://www.nutshell.com/) API client written in Node.js.  The only functionality this currently has is to pull the names of the top 100 (alphabetical) contacts who have email addresses.
