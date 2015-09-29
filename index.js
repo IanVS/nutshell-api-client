@@ -5,7 +5,6 @@
 //------------------------------------------------------------------------------
 
 const api = require('./lib/api-client');
-const contacts = require('./lib/contacts');
 
 //------------------------------------------------------------------------------
 // Public Interface
@@ -20,15 +19,18 @@ exports.getFirstHundredContactsWithEmails = function (options, cb) {
       console.error(err);
       return;
     }
-    let state = { nutshell };
-    contacts.findFirstHundredEmails(state, function (err, contacts) {
+    let args = {
+      entity  : 'Contacts',
+      qty     : 100,
+      filter  : 'email',
+      orderBy : 'displayName'
+    };
+    nutshell.find(args, function (err, results) {
       if (err) {
         console.error(err);
         return;
       }
-      if (contacts.length >= 100) {
-        cb(err, contacts);
-      }
+      cb(null, results);
     });
   });
 };
