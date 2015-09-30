@@ -3,6 +3,9 @@ node_modules
 # Ignore configuration and automatically generated cruft
 *.log
 
+# Test coverage reports
+/coverage/
+
 # Operating system files
 .Spotlight-V100
 .Trashes
