@@ -1,6 +1,6 @@
 {
   "name": "nutshell-api-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple Nutshell json-rpc API client example",
   "main": "index.js",
   "scripts": {
