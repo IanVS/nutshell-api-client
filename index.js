@@ -42,7 +42,7 @@ exports.find = function (entity, args, cb) {
     nutshell.find(findArgs, function (err, results) {
       if (err) {
         console.error(err);
-        return;
+        return cb(err);
       }
       cb(null, results);
     });
